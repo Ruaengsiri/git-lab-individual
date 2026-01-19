@@ -1,0 +1,8 @@
+:root { --primary-color: #2c3e50; --accent-color: #3498db; }
+        body { background-color: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .navbar { background-color: var(--primary-color); }
+        .card { border: none; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        .kpi-card { border-left: 5px solid var(--accent-color); }
+        .chart-container { position: relative; height: 300px; }
+        .table-container { background: white; padding: 20px; border-radius: 10px; }
